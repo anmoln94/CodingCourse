@@ -35,7 +35,7 @@ public class Nonrepeatingelement {
 				if(arr[mid]==arr[mid-1])
 					low = mid+1;
 				else
-					high = mid-1;
+					high = mid-1;	//every odd element is the first element in the seq
 			}
 			
 		}
