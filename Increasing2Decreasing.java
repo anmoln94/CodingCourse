@@ -11,15 +11,12 @@ public class Increasing2Decreasing {
 		int high=arr.length-1;
 		int mid=0;
 		
-		boolean found=false;
-		
 		while(low<=high)
 		{
 			mid=(low+high)/2;
 			
 			if(arr[mid-1]<arr[mid] && arr[mid+1]<arr[mid])
 			{
-				found=true;
 				System.out.println(arr[mid]);
 				break;
 			}
