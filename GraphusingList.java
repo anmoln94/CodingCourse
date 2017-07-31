@@ -85,6 +85,7 @@ public class GraphusingList {
 		}
 		System.out.println("\n");
 		
+		//DFS
 		boolean visited_dfs[] = new boolean[city.length];
 
 		Stack<Integer> stk = new Stack<Integer>();
