@@ -1,3 +1,9 @@
+/* In recursion, the number of chocolates you can buy with the wrappers = wrappers/cost of each wrapper.
+The remaining unused wrappers = wrappers%cost of each wrapper will again be added.
+
+For eg: if 5 wrappers came and cost to buy each chocolate is 3 wrappers, then 5/3 wrappers = 1 chocolate(=1 wrapper) + 2 unused wrapper.
+*/
+
 package CodingCourse;
 
 public class ChocoWrapper {
