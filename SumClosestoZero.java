@@ -1,3 +1,11 @@
+/* Sort the array. Then keep two pointers low(index 0) and high(length-1). Find tempsum = arr[low]+arr[high].
+If it is less than lowest sum calculated till now, sum = tempsum. index1=low, index2=high.
+Now if, tempsum >0 , u decrease high to make the tempsum possibly closer to zero.
+If tempsum <0, u increase low ( same logic)
+If tempsum =0, u have found the two indexes. Break out.
+*
+*/
+
 package CodingCourse;
 
 import java.util.Arrays;
