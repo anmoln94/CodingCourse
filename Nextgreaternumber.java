@@ -1,3 +1,8 @@
+/*Traverse the given number from rightmost digit, till you find a digit(at "index") which is greater than the digit at index-1.
+* Sort from index till the end of array. Find the first digit in this subarray greater than digit at index-1. Swap them.
+*/
+
+
 package CodingCourse;
 
 import java.util.Arrays;
