@@ -1,3 +1,8 @@
+/*Given an array of sorted numbers from 1 to n-1, one element repeats itself consecutively.
+This repeating element will be the first element whose value != index value+1.
+*Apply binary search.
+*/
+
 package CodingCourse;
 
 public class RepeatingElement {
