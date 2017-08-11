@@ -1,3 +1,6 @@
+/* Keep a global variable (static) number_till_now. Recursively call reverse_num with the quotient. 
+number_till_now=number_till_now*10+remainder
+*/
 package CodingCourse;
 
 public class ReverseIntegerwithRecursion {
