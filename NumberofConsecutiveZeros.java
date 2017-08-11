@@ -1,3 +1,6 @@
+/*Array consists of only 1's followed by only 0's. Aim is to find the first 0 using binary search. 
+* Total number of zeros = array length - index of first zero.
+*/
 package CodingCourse;
 
 public class NumberofZeros {
