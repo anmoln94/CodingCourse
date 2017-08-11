@@ -1,3 +1,7 @@
+/*First 3 if conditions are bases cases. We have to use binary search to find the single non repeating element.
+* Next, if mid is an even index then if everything was right, the next element would be the same, else make high = mid.
+* if mid is an odd index then if everything was right, the previous element would be the same. Else, high = mid-1.
+*/
 package CodingCourse;
 
 public class Nonrepeatingelement {
