@@ -1,5 +1,5 @@
 /* Recursively pop all elements of stack. Once stack becomes empty, recursively call sortinsert.
-* Sortinsert keeps popping current stack elements to find the right position to push the current element.
+* Sortinsert keeps popping current stack elements to find the right position to push the element under consideration.
 * Once it finds that position, push back all the elements back which were popped out.
 */
 
