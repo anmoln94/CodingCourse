@@ -1,3 +1,6 @@
+/*Array is first in ascending order, then decreasing order. Use binary search to find max number in array.
+*The max number at index mid will have arr[mid-1] < arr[mid] and arr[mid+1] <arr[mid].
+*/
 package CodingCourse;
 
 public class Increasing2Decreasing {
