@@ -1,3 +1,7 @@
+/* Create a Hashmap (key , count). First populate the hash map with array 1 values and their respective count. 
+Then iterate through the second array values and checking them in the map. If the value exists, decrease count by 1, else break.
+At the end, if arrays were equal, all count should be zero.
+*/
 package CodingCourse;
 
 import java.util.HashMap;
